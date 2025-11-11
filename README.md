@@ -17,18 +17,20 @@ A **starter template** for building modern Python web applications or RestAPI us
 
 ## 📁 Project Structure
 
-├─ app/
-│ ├─ main.py # FastAPI entry point
-│ ├─ routes/ # API route definitions
-│ ├─ schema/ # Pydantic schemas
-│ ├─ helper/ # Helpers functions
-│ ├─ static/ # Static CSS files
-│ ├─ auth/ # Argon auth and functions
-│ ├─ config/ # MongoDB connection & collections
-│ └─ templates/ # Jinja2 HTML templates
+fastapi-starter/
 │
-├─ .env # Environment variables
-├─ requirements.txt # Python dependencies
+├─ app/
+│  ├─ main.py          # FastAPI entry point
+│  ├─ routes/          # API route definitions
+│  ├─ schema/          # Pydantic schemas
+│  ├─ helper/          # Helper functions
+│  ├─ static/          # Static CSS / JS files
+│  ├─ auth/            # Argon2 auth utilities
+│  ├─ config/          # MongoDB connection
+│  └─ templates/       # Jinja2 HTML templates
+│
+├─ .env                # Environment variables
+├─ requirements.txt    # Python dependencies
 └─ README.md
 
 # ⚙️ Getting Started
@@ -39,14 +41,14 @@ A **starter template** for building modern Python web applications or RestAPI us
 git clone https://github.com/SyedFarhanNayyer/FastAPI-Starter-Template.git
 cd fastapi-starter
 
-# Create a virtual environment
+Create a virtual environment
 
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
 
-# Install dependencies
+Install dependencies
 pip install -r requirements.txt
 
-# Run the FastAPI server
+Run the FastAPI server
 fastapi dev main.py
