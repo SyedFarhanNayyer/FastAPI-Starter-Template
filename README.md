@@ -16,7 +16,7 @@ A **starter template** for building modern Python web applications or RestAPI us
 ---
 
 ## 📁 Project Structure
-
+```
 fastapi-starter/
 │
 ├─ app/
@@ -32,7 +32,7 @@ fastapi-starter/
 ├─ .env                # Environment variables
 ├─ requirements.txt    # Python dependencies
 └─ README.md
-
+```
 # ⚙️ Getting Started
 
 ### 1️⃣ Clone the repository
